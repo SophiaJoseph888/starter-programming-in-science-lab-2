@@ -4,8 +4,8 @@
 def calculate_height(h0, t):
     # TODO: Implement this function
     t=float(input("Enter time here:"))
+    h0=float(input("Enter height here:"))
     g=9.8
-    h0=100 # chosen initial height in meters
     h=h0-0.5*g*t**2 # calculate height
     hr=round(h,1) # height rounded to one decimal
     print("The height is", hr,"meters.")
